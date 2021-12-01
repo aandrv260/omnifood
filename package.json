@@ -10,7 +10,8 @@
     "prefix": "postcss --use autoprefixer -b 'last 10 versions' styles/style.concat.css -o styles/style.prefix.css",
     "compress": "node-sass styles/style.prefix.css styles/style.final.css --output-style compressed",
     "build": "npm-run-all concat prefix compress",
-    "parc": "parcel nod.js"
+    "parc": "parcel index.html",
+    "parcB": "parcel build index.html --dist-dir ./dist"
   },
   "author": "Angel",
   "license": "ISC",
