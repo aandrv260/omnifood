@@ -2,7 +2,7 @@
   "name": "omnifood",
   "version": "1.0.0",
   "description": "Landing page for omnifood",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
     "devserver": "live-server",
     "start": "npm-run-all --parallel devserver watch:sass",
