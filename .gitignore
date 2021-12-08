@@ -2,3 +2,5 @@ node_modules
 .vscode
 content.md
 nod.js
+dist
+.parcel-cache
